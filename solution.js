@@ -1,14 +1,13 @@
 function checkPair(arr, k);
 
-let sum = 0;
-
-for (let i = 0; i < n; i++ ){
-    sum += aee[i]
-}
-
-if (sum % 2 != 0 ){
-    return false
-}
-
-sum =  Math.floor(sum / 2)
-
+function findPair(arr, k){
+    for(let i = 0; i < arr.length; i++){
+      for(let j = i+1; j < arr.length; j++){
+        if(arr[i] + arr[j] == k) return true;
+      }
+    }
+    return false;
+  }
+  
+  
+  
