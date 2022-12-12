@@ -1,4 +1,6 @@
-function checkPair(arr,k);
+function checkPair(arr,k){
+    
+}
 
 
   
